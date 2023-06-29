@@ -1,1 +1,66 @@
 /* TODO: Make it awesome */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Using CSS Custom properties */
+  --slt: #1e96fc;
+  --lblu: #a2d6f9;
+  --blu: #072ac8;
+  --lol: #e1d4bb;
+  --mainbackgroundcolor: #fcf300;
+}
+
+header {
+  background-color: var(--slt);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  background-color: var(--lblu);
+  height: 836px;
+}
+footer {
+  background-color: var(--blu);
+  height: 50px;
+}
+h1 {
+  font-family: "Nova Oval", cursive;
+  font-size: 3rem;
+  color: var(--mainbackgroundcolor);
+  font-weight: 700;
+  padding: 5px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 350px;
+  height: 300px;
+  object-fit: contain;
+  border: solid 5px;
+  border-color: var(--mainbackgroundcolor);
+  border-radius: 12px;
+  margin: 15px;
+  margin-top: 50px;
+  background-color: white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
